@@ -1,0 +1,57 @@
+
+.portal-footer {
+    background-color: #EAEDED;
+    padding: 20px 50px;
+    font-size: 14px;
+    flex: 0 0 auto;
+}
+
+.portal-container {
+    padding: 50px;
+}
+
+.portal-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.space-filler {
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+.portal-footer a:not(:last-child):after {
+    color: #879596;
+    content: "|";
+    padding: 0 5px;
+}
+
+dt {
+    font-weight: 700;
+}
+
+dl {
+    margin-bottom: 20px;
+}
+
+.overview-column{
+    .title{
+        color: #232f3e;
+        font-weight: 500;
+        font-size: 18px;
+        margin: 15px 0;
+    }
+}
+
+.portal-hero {
+    padding: 50px 50px;
+    margin-top: 0;
+    background-image: url('./hero.png');
+    background-position: 0;
+    background-size: cover;
+    .title {
+        font-weight: 500;
+        font-size: 44px;
+    }
+}

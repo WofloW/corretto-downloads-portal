@@ -1,0 +1,78 @@
+
+.footer {
+  background-color: #EAEDED;
+  padding: 20px 90px;
+  font-size: 14px;
+}
+
+.container {
+  padding: 30px 90px;
+}
+
+.footer a:not(:last-child):after {
+  color: #879596;
+  content: "|";
+  padding: 0 5px;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dl {
+  margin-bottom: 20px;
+}
+
+.corretto-style {
+
+  .header {
+    color: #333;
+    font-weight: bold;
+  }
+
+  .corretto-menu {
+    padding: 10px 90px;
+    display: flex;
+    align-items: center;
+  }
+
+  .corretto-submenu {
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 13px 15px 11px;
+    line-height: 1;
+    display: flex;
+  }
+
+  .tab {
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .active {
+    color: #0972d3;
+    text-decoration: none;
+    &:after {
+      content: "";
+      width: 45px;
+      height: 2px;
+      background-color: #0972d3;
+      position: absolute;
+      top: 140%;
+      left: 50%;
+      margin-top: -1px;
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+  }
+
+  .all-but-footer {
+    min-height: calc(100vh - 61px - 60px - 68px);
+    h3 {
+      font-weight: 600;
+      font-size: 22px;
+    }
+  }
+}

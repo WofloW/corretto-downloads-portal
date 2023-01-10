@@ -1,0 +1,24 @@
+
+.footer {
+    background-color: #EAEDED;
+    padding: 20px 90px;
+    font-size: 14px;
+}
+
+.container {
+    padding: 30px 90px;
+}
+
+.footer a:not(:last-child):after {
+    color: #879596;
+    content: "|";
+    padding: 0 5px;
+}
+
+dt {
+    font-weight: 700;
+}
+
+dl {
+    margin-bottom: 20px;
+}

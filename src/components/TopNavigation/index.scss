@@ -1,0 +1,17 @@
+.top-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 68px;
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding: 12px 40px;
+  z-index: 3000;
+  .logo {
+    height: 35px;
+    width: 59px;
+  }
+}
